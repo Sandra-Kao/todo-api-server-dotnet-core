@@ -34,7 +34,7 @@ jobs:
       with:
         TOKEN:  ${{ secrets.ACCESS_GITHUB_ADMIN_TOKEN }}
         BRANCH: gh-pages # deploy to branch 'gh-pages'
-        FOLDER: release/wwwroot # build location folder
+        FOLDER: release # build location folder
         
         
     # Runs a single command using the runners shell

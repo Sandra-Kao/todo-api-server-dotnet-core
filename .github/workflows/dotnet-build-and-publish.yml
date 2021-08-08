@@ -33,4 +33,4 @@ jobs:
       with:
         TOKEN:  ${{ secrets.ACCESS_GITHUB_ADMIN_TOKEN }}
         BRANCH: github-pages # deploy to branch 'gh-pages'
-        FOLDER: wwwroot # build location folder
+        FOLDER: release/wwwroot # build location folder

@@ -1,4 +1,4 @@
-name: .NET
+name: dotnet-build-and-publish
 
 on:
   push:
@@ -23,8 +23,9 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Publish
-      run: dotnet publish - c Release
+      
+#    - name: Publish
+#      run: dotnet publish - c Release
       
     # Runs a single command using the runners shell
     - name: Deploy
